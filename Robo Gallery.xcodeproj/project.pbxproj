@@ -1,0 +1,735 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		031DC6BE5DD1F98C99CE2998 /* Pods_Robo_Gallery.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5194B772A721A7B34B10E572 /* Pods_Robo_Gallery.framework */; };
+		17F8AEB31F599FF3E907A575 /* Pods_Robo_GalleryUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5F200D527BE5B45F2324DF3 /* Pods_Robo_GalleryUITests.framework */; };
+		59C85D21224C301A001D2F57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C85D20224C301A001D2F57 /* AppDelegate.swift */; };
+		59C85D23224C301A001D2F57 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C85D22224C301A001D2F57 /* ViewController.swift */; };
+		59C85D26224C301A001D2F57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59C85D24224C301A001D2F57 /* Main.storyboard */; };
+		59C85D28224C301C001D2F57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59C85D27224C301C001D2F57 /* Assets.xcassets */; };
+		59C85D2B224C301C001D2F57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59C85D29224C301C001D2F57 /* LaunchScreen.storyboard */; };
+		59C85D36224C301C001D2F57 /* Robo_GalleryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C85D35224C301C001D2F57 /* Robo_GalleryTests.swift */; };
+		59C85D41224C301C001D2F57 /* Robo_GalleryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C85D40224C301C001D2F57 /* Robo_GalleryUITests.swift */; };
+		71A9F51D2CE706551C6E943A /* Pods_Robo_GalleryTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7369176E3539BF1A8EF2FD82 /* Pods_Robo_GalleryTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		59C85D32224C301C001D2F57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 59C85D15224C301A001D2F57 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 59C85D1C224C301A001D2F57;
+			remoteInfo = "Robo Gallery";
+		};
+		59C85D3D224C301C001D2F57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 59C85D15224C301A001D2F57 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 59C85D1C224C301A001D2F57;
+			remoteInfo = "Robo Gallery";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		20304E1CD0EFCD09FC77DACF /* Pods-Robo GalleryUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Robo GalleryUITests.release.xcconfig"; path = "Target Support Files/Pods-Robo GalleryUITests/Pods-Robo GalleryUITests.release.xcconfig"; sourceTree = "<group>"; };
+		300DD11EEA0FA3B8ABEC80C7 /* Pods-Robo GalleryTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Robo GalleryTests.debug.xcconfig"; path = "Target Support Files/Pods-Robo GalleryTests/Pods-Robo GalleryTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5194B772A721A7B34B10E572 /* Pods_Robo_Gallery.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Robo_Gallery.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		59C85D1D224C301A001D2F57 /* Robo Gallery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Robo Gallery.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		59C85D20224C301A001D2F57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		59C85D22224C301A001D2F57 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		59C85D25224C301A001D2F57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		59C85D27224C301C001D2F57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		59C85D2A224C301C001D2F57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		59C85D2C224C301C001D2F57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59C85D31224C301C001D2F57 /* Robo GalleryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Robo GalleryTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		59C85D35224C301C001D2F57 /* Robo_GalleryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Robo_GalleryTests.swift; sourceTree = "<group>"; };
+		59C85D37224C301C001D2F57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59C85D3C224C301C001D2F57 /* Robo GalleryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Robo GalleryUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		59C85D40224C301C001D2F57 /* Robo_GalleryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Robo_GalleryUITests.swift; sourceTree = "<group>"; };
+		59C85D42224C301C001D2F57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7369176E3539BF1A8EF2FD82 /* Pods_Robo_GalleryTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Robo_GalleryTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF4187276445D728F674A2F0 /* Pods-Robo GalleryUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Robo GalleryUITests.debug.xcconfig"; path = "Target Support Files/Pods-Robo GalleryUITests/Pods-Robo GalleryUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D5F200D527BE5B45F2324DF3 /* Pods_Robo_GalleryUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Robo_GalleryUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1A39BBBF11E2964305BBDDA /* Pods-Robo Gallery.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Robo Gallery.release.xcconfig"; path = "Target Support Files/Pods-Robo Gallery/Pods-Robo Gallery.release.xcconfig"; sourceTree = "<group>"; };
+		E85CA823C2E22258674B5510 /* Pods-Robo GalleryTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Robo GalleryTests.release.xcconfig"; path = "Target Support Files/Pods-Robo GalleryTests/Pods-Robo GalleryTests.release.xcconfig"; sourceTree = "<group>"; };
+		F5687A9AA282D9A149F4AC32 /* Pods-Robo Gallery.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Robo Gallery.debug.xcconfig"; path = "Target Support Files/Pods-Robo Gallery/Pods-Robo Gallery.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		59C85D1A224C301A001D2F57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				031DC6BE5DD1F98C99CE2998 /* Pods_Robo_Gallery.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59C85D2E224C301C001D2F57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71A9F51D2CE706551C6E943A /* Pods_Robo_GalleryTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59C85D39224C301C001D2F57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17F8AEB31F599FF3E907A575 /* Pods_Robo_GalleryUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		040AE2365F80A414791CF9FB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F5687A9AA282D9A149F4AC32 /* Pods-Robo Gallery.debug.xcconfig */,
+				E1A39BBBF11E2964305BBDDA /* Pods-Robo Gallery.release.xcconfig */,
+				300DD11EEA0FA3B8ABEC80C7 /* Pods-Robo GalleryTests.debug.xcconfig */,
+				E85CA823C2E22258674B5510 /* Pods-Robo GalleryTests.release.xcconfig */,
+				CF4187276445D728F674A2F0 /* Pods-Robo GalleryUITests.debug.xcconfig */,
+				20304E1CD0EFCD09FC77DACF /* Pods-Robo GalleryUITests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		58BD98E37B5379D6D9D937D7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5194B772A721A7B34B10E572 /* Pods_Robo_Gallery.framework */,
+				7369176E3539BF1A8EF2FD82 /* Pods_Robo_GalleryTests.framework */,
+				D5F200D527BE5B45F2324DF3 /* Pods_Robo_GalleryUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		59C85D14224C301A001D2F57 = {
+			isa = PBXGroup;
+			children = (
+				59C85D1F224C301A001D2F57 /* Robo Gallery */,
+				59C85D34224C301C001D2F57 /* Robo GalleryTests */,
+				59C85D3F224C301C001D2F57 /* Robo GalleryUITests */,
+				59C85D1E224C301A001D2F57 /* Products */,
+				040AE2365F80A414791CF9FB /* Pods */,
+				58BD98E37B5379D6D9D937D7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		59C85D1E224C301A001D2F57 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				59C85D1D224C301A001D2F57 /* Robo Gallery.app */,
+				59C85D31224C301C001D2F57 /* Robo GalleryTests.xctest */,
+				59C85D3C224C301C001D2F57 /* Robo GalleryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		59C85D1F224C301A001D2F57 /* Robo Gallery */ = {
+			isa = PBXGroup;
+			children = (
+				59C85D20224C301A001D2F57 /* AppDelegate.swift */,
+				59C85D22224C301A001D2F57 /* ViewController.swift */,
+				59C85D24224C301A001D2F57 /* Main.storyboard */,
+				59C85D27224C301C001D2F57 /* Assets.xcassets */,
+				59C85D29224C301C001D2F57 /* LaunchScreen.storyboard */,
+				59C85D2C224C301C001D2F57 /* Info.plist */,
+			);
+			path = "Robo Gallery";
+			sourceTree = "<group>";
+		};
+		59C85D34224C301C001D2F57 /* Robo GalleryTests */ = {
+			isa = PBXGroup;
+			children = (
+				59C85D35224C301C001D2F57 /* Robo_GalleryTests.swift */,
+				59C85D37224C301C001D2F57 /* Info.plist */,
+			);
+			path = "Robo GalleryTests";
+			sourceTree = "<group>";
+		};
+		59C85D3F224C301C001D2F57 /* Robo GalleryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				59C85D40224C301C001D2F57 /* Robo_GalleryUITests.swift */,
+				59C85D42224C301C001D2F57 /* Info.plist */,
+			);
+			path = "Robo GalleryUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		59C85D1C224C301A001D2F57 /* Robo Gallery */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59C85D45224C301C001D2F57 /* Build configuration list for PBXNativeTarget "Robo Gallery" */;
+			buildPhases = (
+				73EB4DB4EACFC3AC16F5623B /* [CP] Check Pods Manifest.lock */,
+				59C85D19224C301A001D2F57 /* Sources */,
+				59C85D1A224C301A001D2F57 /* Frameworks */,
+				59C85D1B224C301A001D2F57 /* Resources */,
+				185A2623DD148DF245838C0A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Robo Gallery";
+			productName = "Robo Gallery";
+			productReference = 59C85D1D224C301A001D2F57 /* Robo Gallery.app */;
+			productType = "com.apple.product-type.application";
+		};
+		59C85D30224C301C001D2F57 /* Robo GalleryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59C85D48224C301C001D2F57 /* Build configuration list for PBXNativeTarget "Robo GalleryTests" */;
+			buildPhases = (
+				9D11EDB96B775E4DED78B9CF /* [CP] Check Pods Manifest.lock */,
+				59C85D2D224C301C001D2F57 /* Sources */,
+				59C85D2E224C301C001D2F57 /* Frameworks */,
+				59C85D2F224C301C001D2F57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				59C85D33224C301C001D2F57 /* PBXTargetDependency */,
+			);
+			name = "Robo GalleryTests";
+			productName = "Robo GalleryTests";
+			productReference = 59C85D31224C301C001D2F57 /* Robo GalleryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		59C85D3B224C301C001D2F57 /* Robo GalleryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59C85D4B224C301C001D2F57 /* Build configuration list for PBXNativeTarget "Robo GalleryUITests" */;
+			buildPhases = (
+				FA210C90CADC8B8B21EBA506 /* [CP] Check Pods Manifest.lock */,
+				59C85D38224C301C001D2F57 /* Sources */,
+				59C85D39224C301C001D2F57 /* Frameworks */,
+				59C85D3A224C301C001D2F57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				59C85D3E224C301C001D2F57 /* PBXTargetDependency */,
+			);
+			name = "Robo GalleryUITests";
+			productName = "Robo GalleryUITests";
+			productReference = 59C85D3C224C301C001D2F57 /* Robo GalleryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		59C85D15224C301A001D2F57 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Sinjon Santos";
+				TargetAttributes = {
+					59C85D1C224C301A001D2F57 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					59C85D30224C301C001D2F57 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 59C85D1C224C301A001D2F57;
+					};
+					59C85D3B224C301C001D2F57 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 59C85D1C224C301A001D2F57;
+					};
+				};
+			};
+			buildConfigurationList = 59C85D18224C301A001D2F57 /* Build configuration list for PBXProject "Robo Gallery" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 59C85D14224C301A001D2F57;
+			productRefGroup = 59C85D1E224C301A001D2F57 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				59C85D1C224C301A001D2F57 /* Robo Gallery */,
+				59C85D30224C301C001D2F57 /* Robo GalleryTests */,
+				59C85D3B224C301C001D2F57 /* Robo GalleryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		59C85D1B224C301A001D2F57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59C85D2B224C301C001D2F57 /* LaunchScreen.storyboard in Resources */,
+				59C85D28224C301C001D2F57 /* Assets.xcassets in Resources */,
+				59C85D26224C301A001D2F57 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59C85D2F224C301C001D2F57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59C85D3A224C301C001D2F57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		185A2623DD148DF245838C0A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Robo Gallery/Pods-Robo Gallery-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Material/Material.framework",
+				"${BUILT_PRODUCTS_DIR}/Motion/Motion.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Material.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Motion.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Robo Gallery/Pods-Robo Gallery-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		73EB4DB4EACFC3AC16F5623B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Robo Gallery-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D11EDB96B775E4DED78B9CF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Robo GalleryTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA210C90CADC8B8B21EBA506 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Robo GalleryUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		59C85D19224C301A001D2F57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59C85D23224C301A001D2F57 /* ViewController.swift in Sources */,
+				59C85D21224C301A001D2F57 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59C85D2D224C301C001D2F57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59C85D36224C301C001D2F57 /* Robo_GalleryTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59C85D38224C301C001D2F57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59C85D41224C301C001D2F57 /* Robo_GalleryUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		59C85D33224C301C001D2F57 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 59C85D1C224C301A001D2F57 /* Robo Gallery */;
+			targetProxy = 59C85D32224C301C001D2F57 /* PBXContainerItemProxy */;
+		};
+		59C85D3E224C301C001D2F57 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 59C85D1C224C301A001D2F57 /* Robo Gallery */;
+			targetProxy = 59C85D3D224C301C001D2F57 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		59C85D24224C301A001D2F57 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				59C85D25224C301A001D2F57 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		59C85D29224C301C001D2F57 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				59C85D2A224C301C001D2F57 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		59C85D43224C301C001D2F57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		59C85D44224C301C001D2F57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		59C85D46224C301C001D2F57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5687A9AA282D9A149F4AC32 /* Pods-Robo Gallery.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5887WFAJ2A;
+				INFOPLIST_FILE = "Robo Gallery/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "SinjonSantos.Robo-Gallery";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		59C85D47224C301C001D2F57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1A39BBBF11E2964305BBDDA /* Pods-Robo Gallery.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5887WFAJ2A;
+				INFOPLIST_FILE = "Robo Gallery/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "SinjonSantos.Robo-Gallery";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		59C85D49224C301C001D2F57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 300DD11EEA0FA3B8ABEC80C7 /* Pods-Robo GalleryTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5887WFAJ2A;
+				INFOPLIST_FILE = "Robo GalleryTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "SinjonSantos.Robo-GalleryTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Robo Gallery.app/Robo Gallery";
+			};
+			name = Debug;
+		};
+		59C85D4A224C301C001D2F57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E85CA823C2E22258674B5510 /* Pods-Robo GalleryTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5887WFAJ2A;
+				INFOPLIST_FILE = "Robo GalleryTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "SinjonSantos.Robo-GalleryTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Robo Gallery.app/Robo Gallery";
+			};
+			name = Release;
+		};
+		59C85D4C224C301C001D2F57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF4187276445D728F674A2F0 /* Pods-Robo GalleryUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5887WFAJ2A;
+				INFOPLIST_FILE = "Robo GalleryUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "SinjonSantos.Robo-GalleryUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Robo Gallery";
+			};
+			name = Debug;
+		};
+		59C85D4D224C301C001D2F57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20304E1CD0EFCD09FC77DACF /* Pods-Robo GalleryUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5887WFAJ2A;
+				INFOPLIST_FILE = "Robo GalleryUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "SinjonSantos.Robo-GalleryUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Robo Gallery";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		59C85D18224C301A001D2F57 /* Build configuration list for PBXProject "Robo Gallery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59C85D43224C301C001D2F57 /* Debug */,
+				59C85D44224C301C001D2F57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59C85D45224C301C001D2F57 /* Build configuration list for PBXNativeTarget "Robo Gallery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59C85D46224C301C001D2F57 /* Debug */,
+				59C85D47224C301C001D2F57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59C85D48224C301C001D2F57 /* Build configuration list for PBXNativeTarget "Robo GalleryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59C85D49224C301C001D2F57 /* Debug */,
+				59C85D4A224C301C001D2F57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59C85D4B224C301C001D2F57 /* Build configuration list for PBXNativeTarget "Robo GalleryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59C85D4C224C301C001D2F57 /* Debug */,
+				59C85D4D224C301C001D2F57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 59C85D15224C301A001D2F57 /* Project object */;
+}

@@ -14,27 +14,15 @@ class ShowImageViewController: UIViewController {
     var robotSet: Int!
     var robotPicture: UIImageView!
 
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-       
         self.navigationController?.navigationBar.titleTextAttributes = [NSAttributedString.Key.font: UIFont(name: "ProximaNova-Semibold", size: 28)!, NSAttributedString.Key.foregroundColor: UIColor.black]
-       
-        self.navigationItem.title = robotName
         
-        
-        robotPicture = UIImageView(frame: CGRect(x: 0, y: 0, width: view.frame.width, height: view.frame.height/2))
-        robotPicture.center = CGPoint(x: view.frame.width/2, y: view.frame.height/2)
-        RobotHashAPIHelper.getRobotImage(name: robotName, set: robotSet) {img in
-            self.robotPicture.image = img
-        }
-        robotPicture.contentMode = .scaleAspectFit
-        view.addSubview(robotPicture)
-
-        // Do any additional setup after loading the view.
+        setupUI()
     }
     
-
     /*
     // MARK: - Navigation
 

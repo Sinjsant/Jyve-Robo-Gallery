@@ -11,9 +11,16 @@ import UIKit
 
 
 extension MainViewController: UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
+    
+    private func numberOfSections(in tableView: UITableView) -> Int {
+        return 1
+    }
+    
+    
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return StorageSingleton.sharedInstance.pictures.count
     }
+    
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = robotCollectionView.dequeueReusableCell(withReuseIdentifier: "mainCell", for: indexPath as IndexPath) as! MainVC_CollectionViewCell
@@ -29,27 +36,24 @@ extension MainViewController: UICollectionViewDelegate, UICollectionViewDataSour
         cell.awakeFromNib()
         
         return cell
-        
     }
+    
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         selectedName = StorageSingleton.sharedInstance.pictures[indexPath.row]
         performSegue(withIdentifier: "toShowImage", sender: self)
     }
     
-    func numberOfSections(in tableView: UITableView) -> Int {
-        return 1
-    }
-    
+
+    // Set cell size
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         return CGSize(width: robotCollectionView.frame.width/5, height: robotCollectionView.frame.height/6)
     }
     
+    
+    // Add section margins
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, insetForSectionAt section: Int) -> UIEdgeInsets {
         let sectionInsets = UIEdgeInsets(top:0.0, left: 15.0, bottom: 0.0, right: 15.0)
         return sectionInsets
     }
-    
-    
-    
 }

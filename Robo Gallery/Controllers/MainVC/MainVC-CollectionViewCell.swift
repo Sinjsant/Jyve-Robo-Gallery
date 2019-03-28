@@ -20,11 +20,5 @@ class MainVC_CollectionViewCell: UICollectionViewCell {
         RobotImageView.image = RobotImage
         RobotImageView.contentMode = .scaleAspectFit
         contentView.addSubview(RobotImageView)
-        
-        
-        
-        // Initialization code
-        
     }
-    
 }

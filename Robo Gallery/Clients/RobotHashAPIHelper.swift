@@ -12,6 +12,7 @@ import UIKit
 
 class RobotHashAPIHelper {
     
+    // API call to fetch picture from Robo Hash API
     static func getRobotImage(name: String, set: Int, completion: @escaping (UIImage) -> ()) {
         let imageURL = "https://robohash.org/\(name)?set=set\(set)"
         if let url = URL(string: imageURL) {
@@ -22,7 +23,5 @@ class RobotHashAPIHelper {
                 print("Error : \(err.localizedDescription)")
             }
         }
-        
     }
-    
 }

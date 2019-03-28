@@ -10,7 +10,10 @@ import Foundation
 
 class StorageSingleton {
     static var sharedInstance: StorageSingleton = StorageSingleton()
-    var pictures:[String]
+    var pictures: [String]
+    
+    
+    // Initialize UserDefaults
     private init() {
         if let storedPics = UserDefaults.standard.array(forKey: "pictures") as? [String] {
             pictures = storedPics
@@ -19,8 +22,8 @@ class StorageSingleton {
         }
     }
     
+    // Save changes to UserDefaults
     func save() {
-        //Saving code
         UserDefaults.standard.set(pictures, forKey: "pictures")
     }
 }

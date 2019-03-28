@@ -22,6 +22,8 @@
 		59C85D5E224C3B53001D2F57 /* proxima-nova-semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 59C85D5D224C3B53001D2F57 /* proxima-nova-semibold.ttf */; };
 		59C85D62224C4188001D2F57 /* MainVC-CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C85D61224C4188001D2F57 /* MainVC-CollectionViewController.swift */; };
 		59C85D66224C430F001D2F57 /* MainVC-CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C85D65224C430F001D2F57 /* MainVC-CollectionViewCell.swift */; };
+		59C85D6B224D7D65001D2F57 /* MainVC-SetupUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C85D6A224D7D65001D2F57 /* MainVC-SetupUI.swift */; };
+		59C85D6F224D819D001D2F57 /* ShowImageVC-SetupUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C85D6E224D819D001D2F57 /* ShowImageVC-SetupUI.swift */; };
 		71A9F51D2CE706551C6E943A /* Pods_Robo_GalleryTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7369176E3539BF1A8EF2FD82 /* Pods_Robo_GalleryTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -65,6 +67,8 @@
 		59C85D5D224C3B53001D2F57 /* proxima-nova-semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "proxima-nova-semibold.ttf"; sourceTree = "<group>"; };
 		59C85D61224C4188001D2F57 /* MainVC-CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MainVC-CollectionViewController.swift"; sourceTree = "<group>"; };
 		59C85D65224C430F001D2F57 /* MainVC-CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MainVC-CollectionViewCell.swift"; sourceTree = "<group>"; };
+		59C85D6A224D7D65001D2F57 /* MainVC-SetupUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MainVC-SetupUI.swift"; sourceTree = "<group>"; };
+		59C85D6E224D819D001D2F57 /* ShowImageVC-SetupUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ShowImageVC-SetupUI.swift"; sourceTree = "<group>"; };
 		7369176E3539BF1A8EF2FD82 /* Pods_Robo_GalleryTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Robo_GalleryTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF4187276445D728F674A2F0 /* Pods-Robo GalleryUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Robo GalleryUITests.debug.xcconfig"; path = "Target Support Files/Pods-Robo GalleryUITests/Pods-Robo GalleryUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		D5F200D527BE5B45F2324DF3 /* Pods_Robo_GalleryUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Robo_GalleryUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -153,11 +157,8 @@
 				59C85D5B224C3B0C001D2F57 /* Assets */,
 				59C85D58224C371D001D2F57 /* Clients */,
 				59C85D55224C3468001D2F57 /* Utils */,
-				59C85D4E224C3345001D2F57 /* Models */,
-				59C85D4F224C334B001D2F57 /* Views */,
 				59C85D50224C3351001D2F57 /* Controllers */,
 				59C85D24224C301A001D2F57 /* Main.storyboard */,
-				59C85D27224C301C001D2F57 /* Assets.xcassets */,
 				59C85D29224C301C001D2F57 /* LaunchScreen.storyboard */,
 				59C85D2C224C301C001D2F57 /* Info.plist */,
 			);
@@ -182,27 +183,11 @@
 			path = "Robo GalleryUITests";
 			sourceTree = "<group>";
 		};
-		59C85D4E224C3345001D2F57 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		59C85D4F224C334B001D2F57 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
 		59C85D50224C3351001D2F57 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				59C85D51224C33B5001D2F57 /* MainViewController.swift */,
-				59C85D61224C4188001D2F57 /* MainVC-CollectionViewController.swift */,
-				59C85D65224C430F001D2F57 /* MainVC-CollectionViewCell.swift */,
-				59C85D53224C33E7001D2F57 /* ShowImageViewController.swift */,
+				59C85D6C224D8162001D2F57 /* MainVC */,
+				59C85D6D224D8172001D2F57 /* ShowImageVC */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -226,6 +211,7 @@
 		59C85D5B224C3B0C001D2F57 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				59C85D27224C301C001D2F57 /* Assets.xcassets */,
 				59C85D5C224C3B13001D2F57 /* Fonts */,
 			);
 			path = Assets;
@@ -237,6 +223,26 @@
 				59C85D5D224C3B53001D2F57 /* proxima-nova-semibold.ttf */,
 			);
 			path = Fonts;
+			sourceTree = "<group>";
+		};
+		59C85D6C224D8162001D2F57 /* MainVC */ = {
+			isa = PBXGroup;
+			children = (
+				59C85D51224C33B5001D2F57 /* MainViewController.swift */,
+				59C85D6A224D7D65001D2F57 /* MainVC-SetupUI.swift */,
+				59C85D61224C4188001D2F57 /* MainVC-CollectionViewController.swift */,
+				59C85D65224C430F001D2F57 /* MainVC-CollectionViewCell.swift */,
+			);
+			path = MainVC;
+			sourceTree = "<group>";
+		};
+		59C85D6D224D8172001D2F57 /* ShowImageVC */ = {
+			isa = PBXGroup;
+			children = (
+				59C85D53224C33E7001D2F57 /* ShowImageViewController.swift */,
+				59C85D6E224D819D001D2F57 /* ShowImageVC-SetupUI.swift */,
+			);
+			path = ShowImageVC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -469,11 +475,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				59C85D62224C4188001D2F57 /* MainVC-CollectionViewController.swift in Sources */,
+				59C85D6B224D7D65001D2F57 /* MainVC-SetupUI.swift in Sources */,
 				59C85D21224C301A001D2F57 /* AppDelegate.swift in Sources */,
 				59C85D57224C34A2001D2F57 /* StorageSingleton.swift in Sources */,
 				59C85D5A224C3742001D2F57 /* RobotHashAPIHelper.swift in Sources */,
 				59C85D66224C430F001D2F57 /* MainVC-CollectionViewCell.swift in Sources */,
 				59C85D54224C33E7001D2F57 /* ShowImageViewController.swift in Sources */,
+				59C85D6F224D819D001D2F57 /* ShowImageVC-SetupUI.swift in Sources */,
 				59C85D52224C33B5001D2F57 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

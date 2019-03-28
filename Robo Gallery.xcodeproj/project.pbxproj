@@ -10,12 +10,18 @@
 		031DC6BE5DD1F98C99CE2998 /* Pods_Robo_Gallery.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5194B772A721A7B34B10E572 /* Pods_Robo_Gallery.framework */; };
 		17F8AEB31F599FF3E907A575 /* Pods_Robo_GalleryUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5F200D527BE5B45F2324DF3 /* Pods_Robo_GalleryUITests.framework */; };
 		59C85D21224C301A001D2F57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C85D20224C301A001D2F57 /* AppDelegate.swift */; };
-		59C85D23224C301A001D2F57 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C85D22224C301A001D2F57 /* ViewController.swift */; };
 		59C85D26224C301A001D2F57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59C85D24224C301A001D2F57 /* Main.storyboard */; };
 		59C85D28224C301C001D2F57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59C85D27224C301C001D2F57 /* Assets.xcassets */; };
 		59C85D2B224C301C001D2F57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59C85D29224C301C001D2F57 /* LaunchScreen.storyboard */; };
 		59C85D36224C301C001D2F57 /* Robo_GalleryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C85D35224C301C001D2F57 /* Robo_GalleryTests.swift */; };
 		59C85D41224C301C001D2F57 /* Robo_GalleryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C85D40224C301C001D2F57 /* Robo_GalleryUITests.swift */; };
+		59C85D52224C33B5001D2F57 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C85D51224C33B5001D2F57 /* MainViewController.swift */; };
+		59C85D54224C33E7001D2F57 /* ShowImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C85D53224C33E7001D2F57 /* ShowImageViewController.swift */; };
+		59C85D57224C34A2001D2F57 /* StorageSingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C85D56224C34A2001D2F57 /* StorageSingleton.swift */; };
+		59C85D5A224C3742001D2F57 /* RobotHashAPIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C85D59224C3742001D2F57 /* RobotHashAPIHelper.swift */; };
+		59C85D5E224C3B53001D2F57 /* proxima-nova-semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 59C85D5D224C3B53001D2F57 /* proxima-nova-semibold.ttf */; };
+		59C85D62224C4188001D2F57 /* MainVC-CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C85D61224C4188001D2F57 /* MainVC-CollectionViewController.swift */; };
+		59C85D66224C430F001D2F57 /* MainVC-CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C85D65224C430F001D2F57 /* MainVC-CollectionViewCell.swift */; };
 		71A9F51D2CE706551C6E943A /* Pods_Robo_GalleryTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7369176E3539BF1A8EF2FD82 /* Pods_Robo_GalleryTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -42,7 +48,6 @@
 		5194B772A721A7B34B10E572 /* Pods_Robo_Gallery.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Robo_Gallery.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		59C85D1D224C301A001D2F57 /* Robo Gallery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Robo Gallery.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		59C85D20224C301A001D2F57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		59C85D22224C301A001D2F57 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		59C85D25224C301A001D2F57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		59C85D27224C301C001D2F57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		59C85D2A224C301C001D2F57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -53,6 +58,13 @@
 		59C85D3C224C301C001D2F57 /* Robo GalleryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Robo GalleryUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		59C85D40224C301C001D2F57 /* Robo_GalleryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Robo_GalleryUITests.swift; sourceTree = "<group>"; };
 		59C85D42224C301C001D2F57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59C85D51224C33B5001D2F57 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		59C85D53224C33E7001D2F57 /* ShowImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowImageViewController.swift; sourceTree = "<group>"; };
+		59C85D56224C34A2001D2F57 /* StorageSingleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageSingleton.swift; sourceTree = "<group>"; };
+		59C85D59224C3742001D2F57 /* RobotHashAPIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RobotHashAPIHelper.swift; sourceTree = "<group>"; };
+		59C85D5D224C3B53001D2F57 /* proxima-nova-semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "proxima-nova-semibold.ttf"; sourceTree = "<group>"; };
+		59C85D61224C4188001D2F57 /* MainVC-CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MainVC-CollectionViewController.swift"; sourceTree = "<group>"; };
+		59C85D65224C430F001D2F57 /* MainVC-CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MainVC-CollectionViewCell.swift"; sourceTree = "<group>"; };
 		7369176E3539BF1A8EF2FD82 /* Pods_Robo_GalleryTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Robo_GalleryTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF4187276445D728F674A2F0 /* Pods-Robo GalleryUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Robo GalleryUITests.debug.xcconfig"; path = "Target Support Files/Pods-Robo GalleryUITests/Pods-Robo GalleryUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		D5F200D527BE5B45F2324DF3 /* Pods_Robo_GalleryUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Robo_GalleryUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -99,7 +111,6 @@
 				CF4187276445D728F674A2F0 /* Pods-Robo GalleryUITests.debug.xcconfig */,
 				20304E1CD0EFCD09FC77DACF /* Pods-Robo GalleryUITests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -139,7 +150,12 @@
 			isa = PBXGroup;
 			children = (
 				59C85D20224C301A001D2F57 /* AppDelegate.swift */,
-				59C85D22224C301A001D2F57 /* ViewController.swift */,
+				59C85D5B224C3B0C001D2F57 /* Assets */,
+				59C85D58224C371D001D2F57 /* Clients */,
+				59C85D55224C3468001D2F57 /* Utils */,
+				59C85D4E224C3345001D2F57 /* Models */,
+				59C85D4F224C334B001D2F57 /* Views */,
+				59C85D50224C3351001D2F57 /* Controllers */,
 				59C85D24224C301A001D2F57 /* Main.storyboard */,
 				59C85D27224C301C001D2F57 /* Assets.xcassets */,
 				59C85D29224C301C001D2F57 /* LaunchScreen.storyboard */,
@@ -164,6 +180,63 @@
 				59C85D42224C301C001D2F57 /* Info.plist */,
 			);
 			path = "Robo GalleryUITests";
+			sourceTree = "<group>";
+		};
+		59C85D4E224C3345001D2F57 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		59C85D4F224C334B001D2F57 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		59C85D50224C3351001D2F57 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				59C85D51224C33B5001D2F57 /* MainViewController.swift */,
+				59C85D61224C4188001D2F57 /* MainVC-CollectionViewController.swift */,
+				59C85D65224C430F001D2F57 /* MainVC-CollectionViewCell.swift */,
+				59C85D53224C33E7001D2F57 /* ShowImageViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		59C85D55224C3468001D2F57 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				59C85D56224C34A2001D2F57 /* StorageSingleton.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		59C85D58224C371D001D2F57 /* Clients */ = {
+			isa = PBXGroup;
+			children = (
+				59C85D59224C3742001D2F57 /* RobotHashAPIHelper.swift */,
+			);
+			path = Clients;
+			sourceTree = "<group>";
+		};
+		59C85D5B224C3B0C001D2F57 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				59C85D5C224C3B13001D2F57 /* Fonts */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		59C85D5C224C3B13001D2F57 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				59C85D5D224C3B53001D2F57 /* proxima-nova-semibold.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,6 +349,7 @@
 			files = (
 				59C85D2B224C301C001D2F57 /* LaunchScreen.storyboard in Resources */,
 				59C85D28224C301C001D2F57 /* Assets.xcassets in Resources */,
+				59C85D5E224C3B53001D2F57 /* proxima-nova-semibold.ttf in Resources */,
 				59C85D26224C301A001D2F57 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -394,8 +468,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				59C85D23224C301A001D2F57 /* ViewController.swift in Sources */,
+				59C85D62224C4188001D2F57 /* MainVC-CollectionViewController.swift in Sources */,
 				59C85D21224C301A001D2F57 /* AppDelegate.swift in Sources */,
+				59C85D57224C34A2001D2F57 /* StorageSingleton.swift in Sources */,
+				59C85D5A224C3742001D2F57 /* RobotHashAPIHelper.swift in Sources */,
+				59C85D66224C430F001D2F57 /* MainVC-CollectionViewCell.swift in Sources */,
+				59C85D54224C33E7001D2F57 /* ShowImageViewController.swift in Sources */,
+				59C85D52224C33B5001D2F57 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
